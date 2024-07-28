@@ -1,4 +1,4 @@
-<h1 align="center">:moneybag: Cash Machine </h1>
+<h1 align="center">:atm: Cash Machine </h1>
 
 <p align="center">
 Guia do que foi usado para realizar este projeto.
