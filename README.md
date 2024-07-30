@@ -1,17 +1,6 @@
 <h1 align="center">:atm: Cash Machine </h1>
 
 <p align="center">
-Guia do que foi usado para realizar este projeto.
-</p>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
-</p>
-
-<br>
-
-<p align="center">
   <img alt="projeto taskmanager" src="https://github.com/user-attachments/assets/7597fb28-c723-4b39-b954-a1238817637c" width="100%">
 </p>
 
