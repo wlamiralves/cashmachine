@@ -1,11 +1,11 @@
 #include <iostream>
 #include <locale.h>
-#include <cstdlib> // Para usar system("pause") no Windows
+#include <cstdlib> 
 
 using namespace std;
 
 void limparTela() {
-    // Limpar a tela do console
+    
     #ifdef _WIN32
     system("cls");
     #else
@@ -14,15 +14,15 @@ void limparTela() {
 }
 
 void exibirMenu() {
-    // Exibir o menu principal
+   
     cout << "\n========================================\n";
     cout << "           Bem-vindo ao Caixa           \n";
     cout << "========================================\n";
-    cout << "Escolha uma opção:\n";
+    cout << "Escolha uma opÃ§Ã£o:\n";
     cout << "1. Sacar dinheiro\n";
     cout << "0. Sair\n";
     cout << "========================================\n";
-    cout << "Opção: ";
+    cout << "OpÃ§Ã£o: ";
 }
 
 void sacar(int valor) {
@@ -66,22 +66,22 @@ int main() {
                 cout << "Valor: ";
                 cin >> valor;
                 if (valor < 2 || valor > 2000) {
-                    cout << "Valor inválido! Tente novamente.\n";
+                    cout << "Valor invÃ¡lido! Tente novamente.\n";
                 } else {
                     sacar(valor);
                 }
                 break;
             case 0:
                 limparTela();
-                cout << "Obrigado por utilizar nosso serviço!\n";
+                cout << "Obrigado por utilizar nosso serviÃ§o!\n";
                 break;
             default:
                 limparTela();
-                cout << "Opção inválida! Tente novamente.\n";
+                cout << "OpÃ§Ã£o invÃ¡lida! Tente novamente.\n";
                 break;
         }
 
-        // Aguardar confirmação do usuário antes de limpar a tela
+        
         cout << "\nPressione Enter para continuar...";
         cin.ignore();
         cin.get();
